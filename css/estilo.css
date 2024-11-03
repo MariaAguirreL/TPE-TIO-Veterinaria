@@ -90,10 +90,7 @@ img {
         height: 70%;
         padding-left: 13%;
     }
-    .homs {
-        width: 70%;
-        height: 70%;
-    }
+
     .subcontenedor2b {
         width: 30%;
         height: 50%;
@@ -142,18 +139,8 @@ img {
         margin:left 5%;
         
     }
-    .hermano_tini_stoessel{
-        width:40%;
-        height:40%;
-    }
-    .tinitini{
-        width: 50%;
-        height: 40%;
-        display: block;
-        flex-direction:column;
         
-        
-    }
+    
     .contenedorB{
         display: flex;
         flex-direction: row;
@@ -236,4 +223,4 @@ img {
         background-color: blueviolet;
         text-align: right;  
     }
-    }  
+    }
