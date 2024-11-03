@@ -3,3 +3,5 @@ Hasta el momento no hubo mayores problemas con las otras partes del funcionamien
 se encarga de la creacion y administracion de la base de datos.
 
 Se creo una falsa base de datos para mas tarde llevarla a una real. 
+
+Se trabajo en la parte de la vista del formulario para turnos.

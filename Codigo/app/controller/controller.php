@@ -16,12 +16,9 @@ class controller{
     public function Sacarturnos(){
         $dias = $this->model->DiasDisponibles();
 
-        $this->view->FormularioTurnos();
+        $this->view->FormularioTurnos($dias);
 
 
     }
-
-
-
 
 }
