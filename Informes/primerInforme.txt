@@ -1,0 +1,3 @@
+Se creo la ranma testing y se comenzo con el desarrollo de un modelo MCV para la aplicacion.
+Hasta el momento no hubo mayores problemas con las otras partes del funcionamiento. La parte de model queda a cargo del backend que es quien
+se encarga de la creacion y administracion de la base de datos.
