@@ -1,3 +1,0 @@
-La pagina busca alcanzar a los usuarios para que puedan acercarse a la organizacion. 
-Para el desarrollo de la misma se utilizan diferentes lenguajes. Las pruebas de testeo hasta el momento han dado buenos resultados, las funcionalidades de los botones y 
-de la parte visual funcionan segun lo estimado, y los pocos detalles de errores (alguna equivocacion ortografica en el frontend) fueron resueltas con gran rapidez.
