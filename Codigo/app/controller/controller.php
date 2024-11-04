@@ -21,4 +21,8 @@ class controller{
 
     }
 
+    public function MostrarHome(){
+        $this->smarty->MostrarHome();
+    }
+
 }
