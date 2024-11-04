@@ -11,5 +11,10 @@ class ProductosController{
         $this->model= new ProductosModel;
         $this->view= new ProductosView;
     }
+
+    public function obtenerProductos(){
+        $productos= $this->model-> traerProductos();
+        $this->view->mostrarProductos($productos);
+    }
 }
 

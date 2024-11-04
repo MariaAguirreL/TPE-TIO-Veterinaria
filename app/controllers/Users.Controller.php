@@ -26,6 +26,8 @@ class UsersController{
             $_SESSION['EMAIL'] = $usuario->email;
             $_SESSION['MASCOTA'] = $usuario->mascota;
 
+            
+
 
         }
         else{
