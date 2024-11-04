@@ -21,18 +21,14 @@ class ProductosModel{
     public function traerProductos(){
         $db= $this->crearConexion();
         $sentencia= $db->prepare("SELECT * FROM productos");
-<<<<<<< HEAD
         $sentencia->excecute();
         $productos= $sentencia->fetchAll(PDO:: FETCH_OBJ);
-=======
         $sentencia->execute();
         $productos= $sentencia->fetchAll(PDO::OBJECT);
->>>>>>> servidorApp
 
         return $productos;
     }
 
-<<<<<<< HEAD
     public function traerProductoId($id){
         $db=$this->crearConexion();
         $sentencia= $db-> prepare("SELECT * FROM productos WHERE id_producto=?");
@@ -40,11 +36,9 @@ class ProductosModel{
         $producto= $sentencia-> fetch(PDO::FETCH_OBJ);
 
         return $producto;
-=======
     public function ELiminarPorId($id){
         $db=$this->crearConexion();
         $sentencia=$db->prepare("SELECT * FROM productos WHERE id_producto=?");
         $sentencia->execute([$id]);
->>>>>>> servidorApp
     }
 }
