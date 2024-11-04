@@ -23,6 +23,8 @@ class controller{
 
     public function CancelarTurno(){
         
+    public function MostrarHome(){
+        $this->smarty->MostrarHome();
     }
 
 }
