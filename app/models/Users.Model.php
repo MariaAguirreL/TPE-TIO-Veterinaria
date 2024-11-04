@@ -32,4 +32,6 @@ class UsersModel{
         return $usuario; 
     
     }
+
+    
 }

@@ -17,10 +17,18 @@ class ProductosController{
         $this->view->mostrarProductos($productos);
     }
 
+<<<<<<< HEAD
 
     public function eliminarProducto($id){
         $productoId=$this->model->traerProductoId($id);
         $this->view->mostrarProductos($productoId);
+=======
+    public function mostrarProductosDestacados(){
+        $logueado = $this->checkLogin();
+        $destacados= $this->productosModel->traerDestacados();
+        $this->productosView-> mostrarDestacados($destacados, $logueado);
+    
+>>>>>>> servidorApp
     }
 }
 
