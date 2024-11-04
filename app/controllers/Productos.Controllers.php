@@ -16,5 +16,11 @@ class ProductosController{
         $productos= $this->model-> traerProductos();
         $this->view->mostrarProductos($productos);
     }
+
+
+    public function eliminarProducto($id){
+        $productoId=$this->model->traerProductoId($id);
+        $this->view->mostrarProductos($productoId);
+    }
 }
 

@@ -4,5 +4,6 @@
   <h5>{$productos->nombre}</h5>
   <p>{$productos->descripcion}</p>
   <a>Ver mas productos</a>
+  
 
 {include'footer.tpl'}

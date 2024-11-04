@@ -22,8 +22,17 @@ class ProductosModel{
         $db= $this->crearConexion();
         $sentencia= $db->prepare("SELECT * FROM productos");
         $sentencia->excecute();
-        $productos= $sentencia->fetchAll(PDO::OBJECT);
+        $productos= $sentencia->fetchAll(PDO:: FETCH_OBJ);
 
         return $productos;
+    }
+
+    public function traerProductoId($id){
+        $db=$this->crearConexion();
+        $sentencia= $db-> prepare("SELECT * FROM productos WHERE id_producto=?");
+        $sentencia->excecute([$id]);
+        $producto= $sentencia-> fetch(PDO::FETCH_OBJ);
+
+        return $producto;
     }
 }
