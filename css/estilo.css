@@ -1,0 +1,226 @@
+body  {background-color: aliceblue;
+    flex-direction: column;
+}
+img {
+    width: 30%;
+    height: 30%;
+}
+.navegacion{
+    background-color: cadetblue;
+}
+@media only screen and (min-width:600px){
+
+    body {
+        background-image:url(../imagenes/fondo.jpg);
+    
+    }
+    header{
+        height: 100px;
+        background-color: palevioletred;
+        display: block;
+        
+    }
+    .tituloprincipal {
+        font-style: italic;
+        text-align:left;
+    }
+    .p {
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    img {
+        width: 70%;
+        height: 70%;
+    }
+    
+    
+    
+    ul{
+        display: flex;
+         flex-direction: row;
+         justify-content: left;
+         list-style-type: none;
+         line-height: 100%;
+    }
+    
+    .navegacion { 
+        margin: 5%;
+        justify-content: right;
+        background-color: palevioletred;
+        
+        
+    }
+    .bomba {
+        width: 15%;
+        height: 100%;
+        flex-direction: row;
+        float: left;
+    
+    }
+    .izquierdadepaul {
+        width: 50%;
+        height: 50%;
+        display:block;
+        padding:4% ;
+    
+    }
+    ol{
+        text-align: start;
+    }
+    .derechadepaul {
+        width: 50%;
+        height: 50%;
+        display: block;
+        padding: 4%;
+    }
+    .contenedor1 {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+    }
+    .subcontenedor2 {
+        width: 70%;
+        height: 40%;
+        margin: 4%;
+    
+    }
+    .imagenhijos {
+        width: 70%;
+        height: 70%;
+        padding-left: 13%;
+    }
+
+    .subcontenedor2b {
+        width: 30%;
+        height: 50%;
+        margin: 4px;
+        padding: 3px;
+    }
+    .subcontenedor3{
+        margin:5px;
+        padding: 5px;
+    }
+   
+    .contenedor2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .tinimodelo{
+        width: 80%;
+        height: 80%;
+    }
+    .izquierdatini{
+        width: 45%;
+        height: 45%;
+        display: block;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .derechatini{ 
+        width: 65%;
+        height: 60%;
+        flex-direction: column;   
+    }
+    .contenedorA{
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+    }
+    
+    
+    .izquierdatinihermano{
+        width: 65%;
+        height: 50%;
+        flex-direction: column;
+        position: relative;
+        margin:left 5%;
+        
+    }
+        
+    
+    .contenedorB{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+    table{
+        border: 2% solid black;
+        border-collapse: collapse;
+        width: 90%;
+        height: 70%;
+        flex-direction: block;
+    }
+    th{
+        background-color: purple;
+        color: aliceblue;
+        text-align: center;
+    }
+    tbody{
+        color: rgb(8, 21, 32);
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+    } 
+    tr{
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    .contenedorizq{
+        width: 70%;
+        height:90%;
+        display:block
+    }
+    .contenedorder{
+    
+        width: 30%;
+        height: 40%;
+        background-color: aquamarine;
+        border: 5%;
+        border-radius: 5%;
+        border-style: double;
+        border-color: rgb(189, 102, 176);
+        
+    }
+    .form{
+        text-align: center;
+        color: gray;
+    }
+    .form-content{
+        width:20%;
+        height: 30%;
+        display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin:5%;
+    }
+    #errorMensaje{
+        color: red;
+    }
+    
+    
+    
+    .contenedorprincipal{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction:row;
+    }
+    footer {
+        font-style: normal;
+        width: 100%;
+        height: 35%;
+        background-color: blueviolet;
+        text-align: right;  
+    }
+    }
