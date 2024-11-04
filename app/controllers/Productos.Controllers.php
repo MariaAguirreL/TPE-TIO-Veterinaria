@@ -16,5 +16,12 @@ class ProductosController{
         $productos= $this->model-> traerProductos();
         $this->view->mostrarProductos($productos);
     }
+
+    public function mostrarProductosDestacados(){
+        $logueado = $this->checkLogin();
+        $destacados= $this->productosModel->traerDestacados();
+        $this->productosView-> mostrarDestacados($destacados, $logueado);
+    
+    }
 }
 

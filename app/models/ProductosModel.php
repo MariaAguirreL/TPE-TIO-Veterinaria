@@ -21,9 +21,15 @@ class ProductosModel{
     public function traerProductos(){
         $db= $this->crearConexion();
         $sentencia= $db->prepare("SELECT * FROM productos");
-        $sentencia->excecute();
+        $sentencia->execute();
         $productos= $sentencia->fetchAll(PDO::OBJECT);
 
         return $productos;
+    }
+
+    public function ELiminarPorId($id){
+        $db=$this->crearConexion();
+        $sentencia=$db->prepare("SELECT * FROM productos WHERE id_producto=?");
+        $sentencia->execute([$id]);
     }
 }
